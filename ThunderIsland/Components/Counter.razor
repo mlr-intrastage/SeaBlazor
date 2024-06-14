@@ -1,0 +1,20 @@
+﻿<div>
+    <p>Current count: @_count</p>
+</div>
+
+<IntraStageButton Type="IntraStageButtonType.Button"
+                  Class=""
+                  OnClick="IncrementCount">
+    Click Me
+</IntraStageButton>
+
+<CopyToClipBoard Text="@_count.ToString()" />
+
+@code {
+    private int _count = 0;
+
+    private void IncrementCount()
+    {
+        _count++;
+    }
+}

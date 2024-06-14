@@ -1,0 +1,19 @@
+﻿@namespace SeaBlazor.CoralReef
+
+<IntraStageButton Type="IntraStageButtonType.Button"
+                  OnClick="CopyToClipboardClick">
+    Copy
+</IntraStageButton>
+
+@code {
+    [Parameter]
+    public string? Text { get; set; }
+
+    [Inject]
+    public CoralReefJsInterop Js { get; set; }
+
+    private async Task CopyToClipboardClick()
+    {
+        await Js.CopyToClipBoard(Text);
+    }
+}

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SeaBlazor.Islands", "SeaBlazor.Islands", "{B2DD32F7-1B85-4EF0-8E4E-16C0EC3DFD55}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeaBlazor.Archipelago", "SeaBlazor.Archipelago\SeaBlazor.Archipelago.csproj", "{14D7A1BF-7ADE-4582-9ADA-A1220F7B2A65}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThunderIsland", "ThunderIsland\ThunderIsland.csproj", "{799A3989-A18E-4E65-8059-A280FEA95A82}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MysticIsland", "MysticIsland\MysticIsland.csproj", "{0BCFF146-3D3E-4A9E-9EAB-545C9DE8D70D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeaBlazor.DigitalSea", "SeaBlazor.DigitalSea\SeaBlazor.DigitalSea.csproj", "{59E33907-2D42-4C7D-8470-F5868CBEB9CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeaBlazor.CoralReef", "SeaBlazor.CoralReef\SeaBlazor.CoralReef.csproj", "{466DE134-A6EB-44AC-9062-B61A92D0EDA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14D7A1BF-7ADE-4582-9ADA-A1220F7B2A65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14D7A1BF-7ADE-4582-9ADA-A1220F7B2A65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14D7A1BF-7ADE-4582-9ADA-A1220F7B2A65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14D7A1BF-7ADE-4582-9ADA-A1220F7B2A65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{799A3989-A18E-4E65-8059-A280FEA95A82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{799A3989-A18E-4E65-8059-A280FEA95A82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{799A3989-A18E-4E65-8059-A280FEA95A82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{799A3989-A18E-4E65-8059-A280FEA95A82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BCFF146-3D3E-4A9E-9EAB-545C9DE8D70D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BCFF146-3D3E-4A9E-9EAB-545C9DE8D70D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BCFF146-3D3E-4A9E-9EAB-545C9DE8D70D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BCFF146-3D3E-4A9E-9EAB-545C9DE8D70D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59E33907-2D42-4C7D-8470-F5868CBEB9CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59E33907-2D42-4C7D-8470-F5868CBEB9CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59E33907-2D42-4C7D-8470-F5868CBEB9CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59E33907-2D42-4C7D-8470-F5868CBEB9CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{466DE134-A6EB-44AC-9062-B61A92D0EDA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{466DE134-A6EB-44AC-9062-B61A92D0EDA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{466DE134-A6EB-44AC-9062-B61A92D0EDA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{466DE134-A6EB-44AC-9062-B61A92D0EDA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{799A3989-A18E-4E65-8059-A280FEA95A82} = {B2DD32F7-1B85-4EF0-8E4E-16C0EC3DFD55}
+		{0BCFF146-3D3E-4A9E-9EAB-545C9DE8D70D} = {B2DD32F7-1B85-4EF0-8E4E-16C0EC3DFD55}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DC4142E-D6B9-45C8-8792-E64176088ADA}
+	EndGlobalSection
+EndGlobal
